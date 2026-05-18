@@ -1,4 +1,7 @@
+// solution 1
+// time: O(n) | space: O(1)
 function secondLargest(arr) {
+    if (arr.length < 2) return "Array should have at least two numbers";
     let firstNum = Number.NEGATIVE_INFINITY;
     let secondNum = Number.NEGATIVE_INFINITY;
 
